@@ -254,7 +254,7 @@ void UHUDWidget::HandleTerminalCountChanged(int32 Remaining, int32 Total)
 	// The final terminal ends the match, so the win screen replaces the banner.
 	if (Remaining > 0)
 	{
-		ShowBanner(FText::FromString(TEXT("SECTOR UNLOCKED")));
+		ShowBanner(FText::FromString(TEXT("TERMINAL DESTROYED!")));
 	}
 }
 
